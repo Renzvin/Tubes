@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A6FF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="337dp"
+        android:layout_height="504dp"
+        android:background="#00C3E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="148dp"
+            android:layout_height="43dp"
+            android:background="@color/colorPrimary"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radio"
+            app:layout_constraintVertical_bias="0.566" />
+
+        <EditText
+            android:id="@+id/RPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/REmail"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <EditText
+            android:id="@+id/REmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RUsername"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <EditText
+            android:id="@+id/RUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.052" />
+
+        <EditText
+            android:id="@+id/RConfirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RPassword"
+            app:layout_constraintVertical_bias="0.044" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="126dp"
+            android:layout_height="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.293"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RConfirmPassword"
+            app:layout_constraintVertical_bias="0.086">
+
+            <RadioButton
+                android:id="@+id/admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="@string/radio_admin"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="@string/radio_user"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.035" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/rlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? LOGIN NOW"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="0.234" />
+</androidx.constraintlayout.widget.ConstraintLayout>

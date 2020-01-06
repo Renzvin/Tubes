@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_booklist"
+            android:title="Book List"/>
+        <item
+            android:id="@+id/nav_borrowedlist"
+            android:title="Borrowed List"/>
+        <item
+            android:id="@+id/nav_requestlist"
+            android:title="Request List"/>
+        <item
+            android:id="@+id/nav_addbook"
+            android:title="Add Book"/>
+        <item
+            android:id="@+id/nav_removebook"
+            android:title="Remove Book"/>
+        <item
+            android:id="@+id/nav_returnbook"
+            android:title="Return Book"/>
+        <item
+            android:id="@+id/nav_location"
+            android:title="Location"/>
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:title="Account Setting"/>
+        </menu>
+    </item>
+</menu>

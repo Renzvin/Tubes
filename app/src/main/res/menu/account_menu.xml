@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:spp="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/nav_avatar"
+            android:icon="@drawable/ic_avatar"
+            android:enabled="true"
+            android:title="Change Avatar"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_username"
+            android:icon="@drawable/ic_username"
+            app:showAsAction="ifRoom"
+            android:title="Change Username"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_email"
+            app:showAsAction="ifRoom"
+            android:title="Change Email"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/ic_password"
+            app:showAsAction="ifRoom"
+            android:title="Change Password"
+            android:enabled="true"/>
+</menu>

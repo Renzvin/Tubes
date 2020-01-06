@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tubes PBP</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="avatar">Avatar</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="radio_admin">Admin</string>
+    <string name="radio_user">User</string>
+
+    <string name="apiKey">AIzaSyA8RAmIbwGKPQC293Is9xdlmAmhHe0sDIo</string>
+</resources>
